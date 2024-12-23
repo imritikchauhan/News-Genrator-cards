@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>News Card Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>News Card Generator</h1>
+    <button id="fetch-news">Fetch Tesla News</button>
+    <div id="news-container"></div>
+
+    <!-- Payment Modal -->
+    <div id="payment-modal" style="display: none">
+      <h2>Daily Card Limit Reached</h2>
+      <p>You can create more cards for Rs. 10.</p>
+      <button id="close-modal">Close</button>
+      <button id="pay-button">Pay 10 INR</button>
+    </div>
+
+    <!-- Payment Status Message -->
+    <div id="payment-status" style="display: none">
+      <p id="status-message"></p>
+      <button id="dismiss-status">Close</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

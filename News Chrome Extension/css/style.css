@@ -1,0 +1,107 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#news-container {
+  margin-top: 20px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 15px auto;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  max-width: 400px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.share-button,
+.download-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.share-button {
+  background-color: #28a745;
+}
+.share-button:hover {
+  background-color: #218838;
+}
+.download-button {
+  background-color: #17a2b8;
+}
+.download-button:hover {
+  background-color: #117a8b;
+}
+#payment-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+#payment-modal h2 {
+  margin: 10px 0;
+  color: #333;
+}
+#close-modal,
+#pay-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#close-modal:hover,
+#pay-button:hover {
+  background-color: #c82333;
+}
+.source {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.source a {
+  text-decoration: none;
+  color: #1a73e8; /* A nice blue color for links */
+}
